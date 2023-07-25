@@ -1,3 +1,4 @@
+
 let arrays = [
     [1, 1, 0], 
     [1, 0, 1], 
@@ -29,11 +30,9 @@ const countNeighbors = (array, column, row) => {
             if (array[i][j] === undefined) {
                 j++
             }
-
             if (array[i][j] === 1) {
                 neighBors++
             }
-
 
         }
 
@@ -86,10 +85,5 @@ const playGame = () => {
 setInterval(() => {
     playGame()
 }, 2000);
-
-
-
-
-
 
 
